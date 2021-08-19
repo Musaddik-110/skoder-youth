@@ -13,6 +13,8 @@ use App\Models\Blog;
 use App\Models\Event;
 use App\Models\Gallery;
 use App\Models\Member;
+use Illuminate\Bus\Queueable;
+use Mail;
 
 class PageController extends Controller
 {
@@ -81,11 +83,28 @@ class PageController extends Controller
         return view('frontend.become_a_member');
     }
 
+
     public function becomeAMember(MemberCreateRequest $request)
     {
         $imageName = FileHelper::uploadImage($request, NULL, [], 270, 340);
         Member::create(array_merge($request->all(), ['image' => $imageName, 'status' => 0, 'designation' => 'General Member']));
+
+        $data = array(
+
+            'name' => $request->name,
+            'email' => $request->email,
+            'about' => $request->about,
+            'phone' => $request->phone,
+        );
+
+        Mail::send('emails.member_req', compact('data'), function ($message) use ($data) {
+            $message->from($data['email']);
+            $message->to('admin@youth.com');
+            $message->subject('Membership Request.');
+
+        });
         return back()->with('success', 'Submit Successful. Admin will review your account.');
+
     }
 
     public function termsAndConditions()

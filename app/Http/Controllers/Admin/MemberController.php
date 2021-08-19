@@ -10,7 +10,7 @@ use App\Http\Requests\MemberCreateRequest;
 use App\Http\Requests\MemberUpdateRequest;
 use App\Models\Member;
 use App\Http\Controllers\AppBaseController;
-
+use Mail;
 class MemberController extends AppBaseController
 {
 
@@ -73,6 +73,23 @@ class MemberController extends AppBaseController
     {
         $member->status = 1;
         $member->save();
+
+        $data = array(
+
+            'email' => $member->email,
+
+
+        );
+
+        Mail::send('emails.confirmation', compact('data'), function ($message) use ($data) {
+            $message->from('admin@youth.com');
+            $message->to($data['email']);
+            $message->subject('Membership Confirmation.');
+
+        });
+
+
+
         notify()->success("Member Accept Successful.", "Success");
         return redirect(route('admin.members.requests'));
     }

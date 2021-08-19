@@ -90,7 +90,7 @@
                         <div class="col-md-4 col-sm-12 col-xs-12">
                             <div class="logo">
                                 <a href="{{route('index')}}"><img height="55px"
-                                        src="{{asset('frontend/images/logo/buplogo.png')}}" alt=""> </a>
+                                        src="{{asset('frontend/images/logo/logo-cs.png')}}" alt=""> </a>
                             </div>
                         </div>
                         <div class="col-md-8 hidden-sm hidden-xs">
@@ -117,15 +117,16 @@
 
                                         </li>
                                         <li><a href="{{route('activities')}}">Activities</a></li>
-                                        <li><a href="#">Member <i class="zmdi zmdi-caret-down"></i></a>
+                                        <li><a href="{{route('blogs')}}">Blog</a></li>
+                                        <li><a href="#">Leaders <i class="zmdi zmdi-caret-down"></i></a>
                                             <ul>
-                                                <li><a href="{{route('alumnis')}}">Alumni Members</a></li>
-                                                <li><a href="{{route('clubMembers')}}">Club Members</a></li>
-                                                <li><a href="{{route('becomeAMember.view')}}">Become a member</a></li>
+                                                <li><a href="{{route('alumnis')}}">Skoder Graduates</a></li>
+                                                <li><a href="{{route('clubMembers')}}">Youth Leaders</a></li>
+                                                <li><a href="{{route('becomeAMember.view')}}">Become a youth leader</a></li>
                                             </ul>
 
                                         </li>
-                                        <li><a href="{{route('blogs')}}">Blog</a></li>
+
                                     </ul>
                                 </nav>
                             </div>
@@ -255,7 +256,7 @@
                         <div class="col-md-3 col-sm-6">
                             <div class="footer-text footer-social">
                                 <a href="{{route('index')}}">
-                                    <img alt="" height="55px" src="{{asset('frontend/images/logo/buplogo.png')}}">
+                                    <img alt="" height="55px" src="{{asset('frontend/images/logo/logo-cs.png')}}">
                                 </a>
                                 <p>Lorem ipsum dolor sit amet, consectetur adi elit, sed do eiusmod temporincididunt ut
                                     lab et dolore magna aliqua. </p>
@@ -289,8 +290,8 @@
                                 <h3>pages</h3>
                                 <ul class="footer-text-all">
                                     <li><a href="{{route('about')}}">About Us</a></li>
-                                    <li><a href="{{route('alumnis')}}">Alumni Members</a></li>
-                                    <li><a href="{{route('clubMembers')}}">Club Members</a></li>
+                                    <li><a href="{{route('alumnis')}}">Skoder Graduates</a></li>
+                                    <li><a href="{{route('clubMembers')}}">Youth Leaders</a></li>
                                     <li><a href="{{route('events')}}">All Events</a></li>
                                     <li><a href="{{route('blogs')}}">Blog</a></li>
                                 </ul>
@@ -346,7 +347,7 @@
             <div class="buy-button">
                 <a href="{{route('index')}}" class="customizer-logo"><img
                         src="{{asset('frontend/images/logo/logo.png')}}" alt="Theme Logo"></a>
-             
+
             </div>
             <div class="clearfix content-chooser">
                 <h3>Layout Options</h3>
