@@ -1,5 +1,5 @@
 @extends('layouts.frontend')
-@section('title','Bup CF')
+@section('title','Skoder Youth')
 @section('content')
 <!-- Start of slider area -->
 <div class="slider-area">
@@ -11,9 +11,9 @@
                 <div class="table">
                     <div class="table-cell">
                         <div class="slider-text animated">
-                            <h3>The Best Learning Club</h3>
-                            <h2>WELCOME TO OUR Club</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod. </p>
+                            <h3>Welcome to Skoder Youth Leadership Program</h3>
+                            <h2>Learn, Innovate and Grow</h2>
+                            <p>Paving the path towards growth, innovation and success </p>
                             <a class="button extra-small mb-20" href="{{route('about')}}">
                                 <span>READ MORE</span>
                             </a>
@@ -30,9 +30,9 @@
 <div class="categoris-area pb-80 pt-110">
     <div class="container">
         <div class="section-title text-center mb-55">
-            <h1 class="uppercase">OUR Strengths</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do <br>eiumod tempor incididunt ut
-                labore et. </p>
+            <h1 class="uppercase">Our Strengths</h1>
+            {{-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do <br>eiumod tempor incididunt ut
+                labore et. </p> --}}
             <div class="separator my mtb-15">
                 <i class="icofont icofont-hat-alt"></i>
             </div>
@@ -79,8 +79,7 @@
     <div class="container">
         <div class="section-title text-center mb-55">
             <h1 class="uppercase">Recent Activities</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do <br>eiumod tempor incididunt ut
-                labore et. </p>
+            <p>Our Recent Programs </p>
             <div class="separator my mtb-15">
                 <i class="icofont icofont-hat-alt"></i>
             </div>
@@ -109,11 +108,7 @@
     <div class="container">
         <div class="section-title text-center mb-55">
             <h1 class="uppercase">UPCOMING EVENTS</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do <br>eiumod tempor incididunt ut
-                labore et. </p>
-            <div class="separator my mtb-15">
-                <i class="icofont icofont-hat-alt"></i>
-            </div>
+
         </div>
         <div class="row">
             <div class="all-upcoming-event">
@@ -145,8 +140,7 @@
     <div class="container">
         <div class="section-title text-center mb-55">
             <h1 class="uppercase">OUR GALLERY</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do <br> eiumod tempor incididunt ut
-                labore et. </p>
+
             <div class="separator my mtb-15">
                 <i class="icofont icofont-hat-alt"></i>
             </div>
@@ -240,11 +234,7 @@
             <div class="col-md-12">
                 <div class="section-title text-center mb-60">
                     <h1 class="uppercase">Our Club Members</h1>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do
-                        <br>
-                        eiumod tempor incididunt ut labore et.
-                    </p>
+
                     <div class="separator my mtb-15">
                         <i class="icofont icofont-hat-alt"></i>
                     </div>
@@ -317,9 +307,8 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="section-title text-center mb-55">
-                    <h1 class="uppercase">BLOG</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do <br> eiumod tempor
-                        incididunt ut labore et. </p>
+                    <h1 class="uppercase">BLOGS</h1>
+
                     <div class="separator my mtb-15">
                         <i class="icofont icofont-hat-alt"></i>
                     </div>

@@ -258,8 +258,7 @@
                                 <a href="{{route('index')}}">
                                     <img alt="" height="55px" src="{{asset('frontend/images/logo/logo-cs.png')}}">
                                 </a>
-                                <p>Lorem ipsum dolor sit amet, consectetur adi elit, sed do eiusmod temporincididunt ut
-                                    lab et dolore magna aliqua. </p>
+                                <p>We are unique in our service compared to thausands of IT companies in the country. We excel in the Next Generation Technologies and aspire to withhold the potential to contribute in the national economy. </p>
                                 <ul>
                                     <li><a target="_blank"
                                             href="{{App\Models\Setting::where('key','Facebook')->first()->value}}"><i
@@ -326,7 +325,7 @@
                         <div class="col-md-12 text-center">
                             <div class="footer-bottom-text ptb-20">
                                 <p>
-                                    Copyrights © <a href="{{route('index')}}" target="_blank">2021 BUPCF</a> | Develop By <a href="https://touhedul.skoder.co" target="_blank">Touhedul Islam</a>
+                                    Copyrights © <a href="{{route('index')}}" target="_blank">2021 All Rights Reserved by Skoder.</a>
                                 </p>
                             </div>
                         </div>
