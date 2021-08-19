@@ -82,7 +82,7 @@ class MemberController extends AppBaseController
         );
 
         Mail::send('emails.confirmation', compact('data'), function ($message) use ($data) {
-            $message->from('admin@youth.com');
+            $message->from('admin@youth.skoder.co');
             $message->to($data['email']);
             $message->subject('Membership Confirmation.');
 
