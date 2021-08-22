@@ -39,38 +39,38 @@
         <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-6">
                 <div class="single-categori mb-30">
-                    <img style="width:100px; height:100px;" src="{{asset('frontend/images/icons/stt.png')}}" alt="">
-                    <h3><a href="#">STARTUP DEVELOPMENT</a></h3>
-                    <p>Skoder provides you the best atmosphere to accelerate your idea into the next leading business venture.</p>
+                    <img style="width:80px; height:80px;" src="{{asset('frontend/images/icons/bd.png')}}" alt="">
+                    <h3><a href="#">Innovation</a></h3>
+                    <p>The traditional approaches and conventional methods are now unable to take us far in the game. The only answer here is innovation. Providing opportunities for new ideas, having a growth mindset, breaking the stereotypes, and making the impossible possible will help us move forward and overcome obstacles.</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6">
                 <div class="single-categori mb-30">
-                    <img style="width:100px; height:100px;" src="{{asset('frontend/images/icons/ssu.png')}}" alt="">
-                    <h3><a href="#">SOFTWARE SOLUTION</a></h3>
-                    <p>Our products are designed to adapt to the next generation industrial growth and boost up your productivity.</p>
+                    <img style="width:80px; height:80px;" src="{{asset('frontend/images/icons/led.png')}}" alt="">
+                    <h3><a href="#">Leadership</a></h3>
+                    <p>Leadership captures the most innate nature of only a few human beings who are capable to lead others towards a certain role. A true leader inspires and motivates others towards a goal by maintaining harmony and taking charge and responsibilities for actions.</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6">
                 <div class="single-categori mb-30">
-                    <img style="width:100px; height:100px;" src="{{asset('frontend/images/icons/web.png')}}" alt="">
-                    <h3><a href="#">WEBTECH & MOBILITY   </a></h3>
-                    <p>We follow a unique development model to provide the best cost-effective solution to the Industrial Software Systems.</p>
+                    <img style="width:80px; height:80px;" src="{{asset('frontend/images/icons/skd1.png')}}" alt="">
+                    <h3><a href="#">Skill Development   </a></h3>
+                    <p>Skill Development bridges the gaps we have to reach a certain peak of success and develops and hones those skills. Only if we accept these gaps and furnish our skills, then we will be able to contribute to our society effectively and efficiently. </p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6">
                 <div class="single-categori mb-30">
-                    <img style="width:100px; height:100px;" src="{{asset('frontend/images/icons/bnd.png')}}" alt="">
-                    <h3><a href="#">NEXTGEN BRANDING</a></h3>
-                    <p>We have the perfect expertise to develop AI based promotional tools for your ultimate venture including 3D animation and Video Advertising.</p>
+                    <img style="width:80px; height:80px;" src="{{asset('frontend/images/icons/opp.png')}}" alt="">
+                    <h3><a href="#">Opportunities</a></h3>
+                    <p>Today’s world offers us enormous numbers of opportunities that are waiting for us to act upon. It is necessary to create platforms to bring together our human resources to act upon these opportunities and innovate new ideas and a new road to success.</p>
                 </div>
             </div>
         </div>
-        <div style="position: absolute; left:50%; transform: translateX(-50%); margin-bottom: 2rem;">
+        {{-- <div style="position: absolute; left:50%; transform: translateX(-50%); margin-bottom: 2rem;">
             <a class="button extra-small mb-20" href="https://skoder.co/business.php">
                 <span>To Know More</span>
             </a>
-        </div>
+        </div> --}}
     </div>
 </div>
 <!-- End categoris area -->
