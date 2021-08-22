@@ -14,8 +14,8 @@
                             <h3>Welcome to Skoder Youth Leadership Program</h3>
                             <h2>Learn, Innovate and Grow</h2>
                             <p>Paving the path towards growth, innovation and success </p>
-                            <a class="button extra-small mb-20" href="{{route('about')}}">
-                                <span>READ MORE</span>
+                            <a class="button extra-small mb-20" href="{{route('becomeAMember.view')}}">
+                                <span>Join Us</span>
                             </a>
                         </div>
                     </div>
@@ -30,9 +30,8 @@
 <div class="categoris-area pb-80 pt-110">
     <div class="container">
         <div class="section-title text-center mb-55">
-            <h1 class="uppercase">Our Strengths</h1>
-            {{-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do <br>eiumod tempor incididunt ut
-                labore et. </p> --}}
+            <h1 class="uppercase">We Focus On</h1>
+            <p>We Offer a Wide Variety of IT Services </p>
             <div class="separator my mtb-15">
                 <i class="icofont icofont-hat-alt"></i>
             </div>
@@ -40,36 +39,37 @@
         <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-6">
                 <div class="single-categori mb-30">
-                    <img src="{{asset('frontend/images/icons/c1.png')}}" alt="">
-                    <h3><a href="#">SCIENCE & TECHNOLOGY</a></h3>
-                    <p>Lorem ipsum dolor sit amet, consecte elsed do eiusmod tempor incididunt ut labore et
-                        dolore magna aliqua Ut.</p>
+                    <img style="width:100px; height:100px;" src="{{asset('frontend/images/icons/stt.png')}}" alt="">
+                    <h3><a href="#">STARTUP DEVELOPMENT</a></h3>
+                    <p>Skoder provides you the best atmosphere to accelerate your idea into the next leading business venture.</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6">
                 <div class="single-categori mb-30">
-                    <img src="{{asset('frontend/images/icons/c2.png')}}" alt="">
-                    <h3><a href="#">HEALTH & PSYCHOLOGY</a></h3>
-                    <p>Lorem ipsum dolor sit amet, consecte elsed do eiusmod tempor incididunt ut labore et
-                        dolore magna aliqua Ut.</p>
+                    <img style="width:100px; height:100px;" src="{{asset('frontend/images/icons/ssu.png')}}" alt="">
+                    <h3><a href="#">SOFTWARE SOLUTION</a></h3>
+                    <p>Our products are designed to adapt to the next generation industrial growth and boost up your productivity.</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6">
                 <div class="single-categori mb-30">
-                    <img src="{{asset('frontend/images/icons/c3.png')}}" alt="">
-                    <h3><a href="#">BUSINESS & ACCOUNTING</a></h3>
-                    <p>Lorem ipsum dolor sit amet, consecte elsed do eiusmod tempor incididunt ut labore et
-                        dolore magna aliqua Ut.</p>
+                    <img style="width:100px; height:100px;" src="{{asset('frontend/images/icons/web.png')}}" alt="">
+                    <h3><a href="#">WEBTECH & MOBILITY   </a></h3>
+                    <p>We follow a unique development model to provide the best cost-effective solution to the Industrial Software Systems.</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6">
                 <div class="single-categori mb-30">
-                    <img src="{{asset('frontend/images/icons/c4.png')}}" alt="">
-                    <h3><a href="#">REAL ESTATE LAW</a></h3>
-                    <p>Lorem ipsum dolor sit amet, consecte elsed do eiusmod tempor incididunt ut labore et
-                        dolore magna aliqua Ut.</p>
+                    <img style="width:100px; height:100px;" src="{{asset('frontend/images/icons/bnd.png')}}" alt="">
+                    <h3><a href="#">NEXTGEN BRANDING</a></h3>
+                    <p>We have the perfect expertise to develop AI based promotional tools for your ultimate venture including 3D animation and Video Advertising.</p>
                 </div>
             </div>
+        </div>
+        <div style="position: absolute; left:50%; transform: translateX(-50%); margin-bottom: 2rem;">
+            <a class="button extra-small mb-20" href="https://skoder.co/business.php">
+                <span>To Know More</span>
+            </a>
         </div>
     </div>
 </div>
@@ -108,8 +108,12 @@
     <div class="container">
         <div class="section-title text-center mb-55">
             <h1 class="uppercase">UPCOMING EVENTS</h1>
-
+            <p>Join our events to learn something new & interesting </p>
+            <div class="separator my mtb-15">
+                <i class="icofont icofont-hat-alt"></i>
+            </div>
         </div>
+
         <div class="row">
             <div class="all-upcoming-event">
                 @foreach ($events as $event)
@@ -126,7 +130,7 @@
             <div class="col-md-12 col-sm-12 col-xs-12 text-center">
                 <div class="countdown-all">
                     <h3>Get Benifits From The Club </h3>
-                    <a  href="#"><h1 style="color: rgb(73, 110, 233)">Become a Member</h1></a>
+                    <a  href="{{route('becomeAMember.view')}}"><h1 style="color: rgb(73, 110, 233)">Become a Member</h1></a>
                     <div class="timer">
                         {{-- <div style="" data-countdown="2022/01/01"></div> --}}
                     </div>
@@ -140,7 +144,7 @@
     <div class="container">
         <div class="section-title text-center mb-55">
             <h1 class="uppercase">OUR GALLERY</h1>
-
+            <p>Popular snapshots of our recent events</p>
             <div class="separator my mtb-15">
                 <i class="icofont icofont-hat-alt"></i>
             </div>
@@ -234,7 +238,7 @@
             <div class="col-md-12">
                 <div class="section-title text-center mb-60">
                     <h1 class="uppercase">Our Club Members</h1>
-
+                    <p>Our active club members</p>
                     <div class="separator my mtb-15">
                         <i class="icofont icofont-hat-alt"></i>
                     </div>
@@ -308,7 +312,7 @@
             <div class="col-md-12">
                 <div class="section-title text-center mb-55">
                     <h1 class="uppercase">BLOGS</h1>
-
+                    <p>Some recent blogs from creative minds</p>
                     <div class="separator my mtb-15">
                         <i class="icofont icofont-hat-alt"></i>
                     </div>
