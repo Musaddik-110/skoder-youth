@@ -107,7 +107,7 @@ class PageController extends Controller
         Mail::send('emails.member_req_user', compact('data'), function ($message) use ($data) {
             $message->from('youth@skoder.co');
             $message->to($data['email']);
-            $message->subject('Membership Request.');
+            $message->subject('Skoder Youth Membership Request.');
 
         });
 
