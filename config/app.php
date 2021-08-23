@@ -163,6 +163,9 @@ return [
         Illuminate\View\ViewServiceProvider::class,
         \App\Providers\ViewServiceProvider::class,
 
+        //datatable
+
+        Yajra\DataTables\DataTablesServiceProvider::class,
         /*
          * Package Service Providers...
          */

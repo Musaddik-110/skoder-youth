@@ -57,9 +57,9 @@ box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
             <div class="col-md-3 col-sm-6">
                 <div class="single-lecturers">
                     <div class="lecturers-img">
-                        <a href="#"><img alt="" src="{{asset('frontend/images/icons/bd.png')}}"></a>
+                        <a href="#"><img alt="" src="{{asset('frontend/images/icons/inv.jpeg')}}"></a>
                         <div class="img-title">
-                            <h3>Innovation</h3>
+                            <h3 style="margin-bottom:10px;">Innovation</h3>
 
                         </div>
                     </div>
@@ -78,9 +78,9 @@ box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
             <div class="col-md-3 col-sm-6">
                 <div class="single-lecturers">
                     <div class="lecturers-img">
-                        <a href="#"><img alt="" src="{{asset('frontend/images/icons/bd.png')}}"></a>
+                        <a href="#"><img alt="" src="{{asset('frontend/images/icons/led.jpeg')}}"></a>
                         <div class="img-title">
-                            <h3>Leadership</h3>
+                            <h3 style="margin-bottom:10px;">Leadership</h3>
 
                         </div>
                     </div>
@@ -99,9 +99,9 @@ box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
             <div class="col-md-3 col-sm-6">
                 <div class="single-lecturers">
                     <div class="lecturers-img">
-                        <a href="#"><img alt="" src="{{asset('frontend/images/icons/bd.png')}}"></a>
+                        <a href="#"><img alt="" src="{{asset('frontend/images/icons/skd.jpeg')}}"></a>
                         <div class="img-title">
-                            <h3>Skill Development </h3>
+                            <h3 style="margin-bottom:10px;">Skill Development </h3>
 
                         </div>
                     </div>
@@ -120,9 +120,9 @@ box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
             <div class="col-md-3 col-sm-6">
                 <div class="single-lecturers">
                     <div class="lecturers-img">
-                        <a href="#"><img alt="" src="{{asset('frontend/images/icons/bd.png')}}"></a>
+                        <a href="#"><img alt="" src="{{asset('frontend/images/icons/opt.jpeg')}}"></a>
                         <div class="img-title">
-                            <h3>Opportunities</h3>
+                            <h3 style="margin-bottom:10px;">Opportunities</h3>
 
                         </div>
                     </div>

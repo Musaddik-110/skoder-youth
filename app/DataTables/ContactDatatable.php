@@ -5,6 +5,7 @@ namespace App\DataTables;
 use App\Models\ContactFeedback;
 use Yajra\DataTables\Services\DataTable;
 use Yajra\DataTables\EloquentDataTable;
+
 use Str;
 
 class ContactDataTable extends DataTable
