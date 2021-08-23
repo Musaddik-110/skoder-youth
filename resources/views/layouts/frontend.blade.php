@@ -72,10 +72,10 @@
                                                 href="{{App\Models\Setting::where('key','Facebook')->first()->value}}"><i
                                                     class="icofont icofont-social-facebook"></i></a></li>
                                         <li><a target="_blank"
-                                                href="{{App\Models\Setting::where('key','Twitter')->first()->value}}"><i
-                                                    class="icofont icofont-social-twitter"></i></a></li>
+                                                href="https://www.linkedin.com/company/skoder-bd/"><i
+                                                    class="icofont icofont-social-linkedin"></i></a></li>
                                         <li><a target="_blank"
-                                                href={{App\Models\Setting::where('key','Youtube')->first()->value}}""><i
+                                                href="{{App\Models\Setting::where('key','Youtube')->first()->value}}"><i
                                                     class="icofont icofont-social-youtube"></i></a></li>
                                     </ul>
                                 </div>
@@ -184,10 +184,10 @@
                                             href="{{App\Models\Setting::where('key','Facebook')->first()->value}}"><i
                                                 class="icofont icofont-social-facebook"></i></a></li>
                                     <li><a target="_blank"
-                                            href="{{App\Models\Setting::where('key','Twitter')->first()->value}}"><i
-                                                class="icofont icofont-social-twitter"></i></a></li>
+                                            href="https://www.linkedin.com/company/skoder-bd/"><i
+                                                class="icofont icofont-social-linkedin"></i></a></li>
                                     <li><a target="_blank"
-                                            href={{App\Models\Setting::where('key','Youtube')->first()->value}}""><i
+                                            href="{{App\Models\Setting::where('key','Youtube')->first()->value}}"><i
                                                 class="icofont icofont-social-youtube"></i></a></li>
                                 </ul>
                             </div>

@@ -1,6 +1,21 @@
 @extends('layouts.frontend')
 @section('title','Skoder Youth')
 @section('content')
+<style>
+/* .card{
+border-radius: 4px;
+background: #fff;
+box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+padding: 14px 80px 18px 36px;
+cursor: pointer;
+}
+
+.card:hover{
+transform: scale(1.05);
+box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+} */
+</style>
 <!-- Start of slider area -->
 <div class="slider-area">
     <div class="slider-active">
@@ -36,36 +51,138 @@
                 <i class="icofont icofont-hat-alt"></i>
             </div>
         </div>
+
         <div class="row">
-            <div class="col-lg-3 col-md-6 col-sm-6">
-                <div class="single-categori mb-30">
-                    <img style="width:80px; height:80px;" src="{{asset('frontend/images/icons/bd.png')}}" alt="">
-                    <h3><a href="#">Innovation</a></h3>
-                    <p>The traditional approaches and conventional methods are now unable to take us far in the game. The only answer here is innovation. Providing opportunities for new ideas, having a growth mindset, breaking the stereotypes, and making the impossible possible will help us move forward and overcome obstacles.</p>
+
+            <div class="col-md-3 col-sm-6">
+                <div class="single-lecturers">
+                    <div class="lecturers-img">
+                        <a href="#"><img alt="" src="{{asset('frontend/images/icons/bd.png')}}"></a>
+                        <div class="img-title">
+                            <h3>Innovation</h3>
+
+                        </div>
+                    </div>
+                    <div class="lecturers-details">
+
+                        <div class="last-about-details text-white" style="margin: 8px 12px 8px 12px; text-align: justify;">
+                            <ul>
+                                <p>The traditional approaches and conventional methods are now unable to take us far in the game. The only answer here is innovation. Providing opportunities for new ideas, having a growth mindset, breaking the stereotypes, and making the impossible possible will help us move forward and overcome obstacles.</p>
+                            </ul>
+                        </div>
+
+                    </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-6">
-                <div class="single-categori mb-30">
-                    <img style="width:80px; height:80px;" src="{{asset('frontend/images/icons/led.png')}}" alt="">
-                    <h3><a href="#">Leadership</a></h3>
-                    <p>Leadership captures the most innate nature of only a few human beings who are capable to lead others towards a certain role. A true leader inspires and motivates others towards a goal by maintaining harmony and taking charge and responsibilities for actions.</p>
+
+            <div class="col-md-3 col-sm-6">
+                <div class="single-lecturers">
+                    <div class="lecturers-img">
+                        <a href="#"><img alt="" src="{{asset('frontend/images/icons/bd.png')}}"></a>
+                        <div class="img-title">
+                            <h3>Leadership</h3>
+
+                        </div>
+                    </div>
+                    <div class="lecturers-details">
+
+                        <div class="last-about-details text-white" style="margin: 8px 12px 8px 12px; text-align: justify;">
+                            <ul>
+                                <p>Leadership captures the most innate nature of only a few human beings who are capable to lead others towards a certain role. A true leader inspires and motivates others towards a goal by maintaining harmony and taking charge and responsibilities for actions.</p>
+                            </ul>
+                        </div>
+
+                    </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-6">
-                <div class="single-categori mb-30">
-                    <img style="width:80px; height:80px;" src="{{asset('frontend/images/icons/skd1.png')}}" alt="">
-                    <h3><a href="#">Skill Development   </a></h3>
-                    <p>Skill Development bridges the gaps we have to reach a certain peak of success and develops and hones those skills. Only if we accept these gaps and furnish our skills, then we will be able to contribute to our society effectively and efficiently. </p>
+
+            <div class="col-md-3 col-sm-6">
+                <div class="single-lecturers">
+                    <div class="lecturers-img">
+                        <a href="#"><img alt="" src="{{asset('frontend/images/icons/bd.png')}}"></a>
+                        <div class="img-title">
+                            <h3>Skill Development </h3>
+
+                        </div>
+                    </div>
+                    <div class="lecturers-details">
+
+                        <div class="last-about-details text-white" style="margin: 8px 12px 8px 12px; text-align: justify;">
+                            <ul>
+                                <p>Skill Development bridges the gaps we have to reach a certain peak of success and develops and hones those skills. Only if we accept these gaps and furnish our skills, then we will be able to contribute to our society effectively and efficiently. </p>
+                            </ul>
+                        </div>
+
+                    </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-6">
-                <div class="single-categori mb-30">
-                    <img style="width:80px; height:80px;" src="{{asset('frontend/images/icons/opp.png')}}" alt="">
-                    <h3><a href="#">Opportunities</a></h3>
-                    <p>Today’s world offers us enormous numbers of opportunities that are waiting for us to act upon. It is necessary to create platforms to bring together our human resources to act upon these opportunities and innovate new ideas and a new road to success.</p>
+
+            <div class="col-md-3 col-sm-6">
+                <div class="single-lecturers">
+                    <div class="lecturers-img">
+                        <a href="#"><img alt="" src="{{asset('frontend/images/icons/bd.png')}}"></a>
+                        <div class="img-title">
+                            <h3>Opportunities</h3>
+
+                        </div>
+                    </div>
+                    <div class="lecturers-details">
+
+                        <div class="last-about-details text-white" style="margin: 8px 12px 8px 12px; text-align: justify;">
+                            <ul>
+                                <p>Today’s world offers us enormous numbers of opportunities that are waiting for us to act upon. It is necessary to create platforms to bring together our human resources to act upon these opportunities and innovate new ideas and a new road to success.</p>
+                            </ul>
+                        </div>
+
+                    </div>
                 </div>
             </div>
+
         </div>
+
+
+
+        {{-- <div class="row">
+            <div class="card shadow p-3 mb-5 bg-white rounded">
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="single-categori mb-30">
+                        <img style="width:80px; height:80px;" src="{{asset('frontend/images/icons/bd.png')}}" alt="">
+                        <h3><a href="#">Innovation</a></h3>
+                        <p>The traditional approaches and conventional methods are now unable to take us far in the game. The only answer here is innovation. Providing opportunities for new ideas, having a growth mindset, breaking the stereotypes, and making the impossible possible will help us move forward and overcome obstacles.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="single-categori mb-30">
+                        <img style="width:80px; height:80px;" src="{{asset('frontend/images/icons/led.png')}}" alt="">
+                        <h3><a href="#">Leadership</a></h3>
+                        <p>Leadership captures the most innate nature of only a few human beings who are capable to lead others towards a certain role. A true leader inspires and motivates others towards a goal by maintaining harmony and taking charge and responsibilities for actions.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="single-categori mb-30">
+                        <img style="width:80px; height:80px;" src="{{asset('frontend/images/icons/skd1.png')}}" alt="">
+                        <h3><a href="#">Skill Development   </a></h3>
+                        <p>Skill Development bridges the gaps we have to reach a certain peak of success and develops and hones those skills. Only if we accept these gaps and furnish our skills, then we will be able to contribute to our society effectively and efficiently. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="single-categori mb-30">
+                        <img style="width:80px; height:80px;" src="{{asset('frontend/images/icons/opp.png')}}" alt="">
+                        <h3><a href="#">Opportunities</a></h3>
+                        <p>Today’s world offers us enormous numbers of opportunities that are waiting for us to act upon. It is necessary to create platforms to bring together our human resources to act upon these opportunities and innovate new ideas and a new road to success.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div> --}}
+
+
         {{-- <div style="position: absolute; left:50%; transform: translateX(-50%); margin-bottom: 2rem;">
             <a class="button extra-small mb-20" href="https://skoder.co/business.php">
                 <span>To Know More</span>
@@ -151,7 +268,7 @@
         </div>
         <div class="row">
             @foreach ($galleries as $gallery)
-            <div class="col-md-4 col-sm-6">
+            <div class="col-md-3 col-sm-6">
                 <div class="gallery-img mb-30">
                     <img src="{{asset('images/'.$gallery->image)}}" alt="">
                     <div class="gallery-view">
@@ -237,8 +354,8 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="section-title text-center mb-60">
-                    <h1 class="uppercase">Our Club Members</h1>
-                    <p>Our active club members</p>
+                    <h1 class="uppercase">Our Youth Leaders</h1>
+                    <p>Our active and energetic youth leaders</p>
                     <div class="separator my mtb-15">
                         <i class="icofont icofont-hat-alt"></i>
                     </div>
