@@ -1,12 +1,11 @@
 <?php
 
 namespace App\Http\Controllers\Admin;
-
-use App\DataTables\ContactDataTable;
+use DataTables;
 use App\DataTables\FeedbackDataTable;
 use App\Http\Controllers\Controller;
 use App\Models\ContactFeedback;
-
+use App\DataTables\ContactDataTable;
 class ContactFeedbackController extends Controller
 {
 
