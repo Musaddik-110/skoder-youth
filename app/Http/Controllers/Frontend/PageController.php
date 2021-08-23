@@ -103,6 +103,14 @@ class PageController extends Controller
             $message->subject('Membership Request.');
 
         });
+
+        Mail::send('emails.member_req_user', compact('data'), function ($message) use ($data) {
+            $message->from('youth@skoder.co');
+            $message->to($data['email']);
+            $message->subject('Membership Request.');
+
+        });
+
         return back()->with('success', 'Submit Successful. Admin will review your account.');
 
     }

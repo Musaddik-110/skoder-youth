@@ -8,13 +8,16 @@
 	<div class="container">
 		<div class="card" >
             <div class="card-header">
-                <h4>A new member just registered to youth leader program</h4> <br> <br>
+                <h4>{{ $data['name'] }}, wants to join in Skoder Youth Community.</h4> <br> <br>
             </div>
 		<div class="card-body">
             <p>Name: {{ $data['name'] }}</p><br>
             <p>Email: {{ $data['email'] }}</p><br>
             <p>Phone: {{ $data['phone'] }}</p><br>
-            <p>About: {{ $data['about'] }}</p><br>
+            <p>About: {{ $data['about'] }}</p><br> <br>
+            <p>Please take care of him</p><br>
+            <p>Regards, <br>
+                Skoder Youth</p>
         </div>
 
 		</div>

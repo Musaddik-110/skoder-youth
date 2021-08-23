@@ -77,6 +77,7 @@ class MemberController extends AppBaseController
         $data = array(
 
             'email' => $member->email,
+            'name' => $member->name,
 
 
         );
