@@ -46,7 +46,7 @@ box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
     <div class="container">
         <div class="section-title text-center mb-55">
             <h1 class="uppercase">We Focus On</h1>
-            <p>We Offer a Wide Variety of IT Services </p>
+            <p>We dream of a better world with our Skoder Youth</p>
             <div class="separator my mtb-15">
                 <i class="icofont icofont-hat-alt"></i>
             </div>
